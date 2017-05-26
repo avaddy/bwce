@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename PartnerLink from &apos;resource&apos; to &apos;hello&apos;" description="Rename PartnerLink from &apos;resource&apos; to &apos;hello&apos;" flags="7" id="com.tibco.bw.core.design.refactoring.rename.partnerlink" stamp="1494475781019"/>
+</session>

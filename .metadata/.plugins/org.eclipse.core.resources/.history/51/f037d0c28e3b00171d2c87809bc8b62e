@@ -1,0 +1,15 @@
+#PCF Properties
+#Thu May 18 01:36:35 EDT 2017
+bwpcf.instances=2
+bwpcf.trustSelfSignedCerts=true
+bwpcf.env.2=PCFDev
+bwpcf.env.1=DEBUG
+bwpcf.org=pcfdev-org
+bwpcf.env.0=PCF
+bwpcf.url=HelloWorldPCF.local.pcfdev.io
+bwpcf.space=pcfdev-space
+bwpcf.server=PCF_UK_credential
+bwpcf.memory=1024
+bwpcf.appName=HelloWorldPCF
+bwpcf.target=https\://api.local.pcfdev.io --skip-ssl-validation
+bwpcf.buildpack=bwce-buildpack2-2-1

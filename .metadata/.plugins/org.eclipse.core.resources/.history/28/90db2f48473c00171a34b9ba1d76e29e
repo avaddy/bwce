@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_9uSMQDxGEeelxtmNSluQ9Q" targetNamespace="http://tns.tibco.com/bw/composite/EMSMessagingPCF.module" name="EMSMessagingPCF.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_-I0MIDxGEeelxtmNSluQ9Q" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-I6SwDxGEeelxtmNSluQ9Q" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-I9WEDxGEeelxtmNSluQ9Q" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-JBAcDxGEeelxtmNSluQ9Q" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-JEq0DxGEeelxtmNSluQ9Q" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-JHHEDxGEeelxtmNSluQ9Q" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_-JJjUDxGEeelxtmNSluQ9Q" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SCr5kDxHEeelxtmNSluQ9Q" name="EMSUrl" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_94yMEDxGEeelxtmNSluQ9Q" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_94yMETxGEeelxtmNSluQ9Q" processName="emsmessagingpcf.module.Process"/>
+  </sca:component>
+</sca:composite>

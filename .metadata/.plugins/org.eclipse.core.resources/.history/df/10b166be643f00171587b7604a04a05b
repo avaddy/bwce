@@ -1,0 +1,15 @@
+#PCF Properties
+#Mon May 22 21:57:22 CDT 2017
+bwpcf.instances=1
+bwpcf.trustSelfSignedCerts=true
+bwpcf.env.2=PCFDev
+bwpcf.env.1=DEBUG
+bwpcf.org=pcfdev-org
+bwpcf.env.0=PCF
+bwpcf.url=EMSMessagingPCF.local.pcfdev.io
+bwpcf.space=pcfdev-space
+bwpcf.server=PCF_UK_credential
+bwpcf.memory=1024
+bwpcf.appName=EMSMessagingPCF
+bwpcf.target=https\://api.local.pcfdev.io
+bwpcf.buildpack=bw-buildpack

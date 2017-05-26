@@ -1,0 +1,19 @@
+Manifest-Version: 1.0.0-SNAPSHOT
+Bundle-SymbolicName: EMSMessagingPCF.module
+Bundle-ManifestVersion: 2
+TIBCO-BW-Edition: bwcf
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tib
+ co.bw.palette; filter:="(name=bw.generalactivities)",com.tibco.bw.pal
+ ette; filter:="(name=bw.jms)",com.tibco.bw.sharedresource.model; filt
+ er:="(name=bw.jmsconnection)"
+TIBCO-BWCE-Edition-Target: cf
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-Version: 2.2.1 V18 2017-02-10
+Bundle-Name: EMSMessagingPCF Module
+Bundle-Version: 1.0.0.201705222232
+Bundle-ClassPath: .
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+

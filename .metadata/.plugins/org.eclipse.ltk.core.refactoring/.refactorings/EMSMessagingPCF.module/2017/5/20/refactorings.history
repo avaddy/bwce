@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;EMSMessagingPCF.module/Processes/emsmessagingpcf/module/Process.bwp&apos; to &apos;SendMessage.bwp&apos;" description="Rename resource &apos;Process.bwp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Processes/emsmessagingpcf/module/Process.bwp" name="SendMessage.bwp" stamp="1495166744710" updateReferences="true"/>
+</session>
