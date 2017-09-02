@@ -1,0 +1,15 @@
+---
+applications:
+- name: HelloWorld
+  path: HelloWorldPCF_1.0.0.ear
+  timeout: 60
+  memory: 1024M
+  disk_quota: 1024M
+  buildpack: bwce-buildpack231
+  health-check-type: none
+  env:
+    APP_CONFIG_PROFILE: PCF
+    BW_LOGLEVEL: ERROR
+    BW_PROFILE: PCFDev
+  services:
+        - my-config-service
