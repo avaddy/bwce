@@ -1,7 +1,7 @@
 ---
 applications:
 - name: HelloWorld
-  path: HelloWorldPCF_1.0.0.ear
+  path: HelloWorldPCF/target/HelloWorldPCF_1.0.0.ear
   timeout: 60
   memory: 1024M
   disk_quota: 1024M
